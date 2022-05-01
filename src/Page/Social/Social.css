@@ -1,3 +1,8 @@
+.eror-container {
+    padding: 10px;
+    color: red;
+}
+
 .social-container {
     display: flex;
     align-items: center;
@@ -12,6 +17,7 @@
     font-size: 14px;
     margin: 10px;
     text-align: center;
+    cursor: pointer;
 }
 
 .social-container button img {

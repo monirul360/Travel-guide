@@ -1,8 +1,15 @@
+import { signOut } from 'firebase/auth';
 import React from 'react';
+import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
+import auth from '../../../firebase';
 import logo from '../../../Image/Logo/logo.png';
 import './Header.css';
 const Header = () => {
+    const [user, load] = useAuthState(auth);
+    const logout = () => {
+        signOut(auth);
+    }
     const myFunction = () => {
         var x = document.getElementById("menu");
         if (x.style.display === "none") {
@@ -28,7 +35,10 @@ const Header = () => {
                             <li><Link to='/home'>Home</Link></li>
                             <li><Link to='/blog'>Blog</Link></li>
                             <li><Link to='/about'>About</Link></li>
-                            <li><Link to='/login'>Login</Link></li>
+                            {user ? <li><button onClick={logout} id='logout'>Log out</button></li>
+                                : <li><Link to='/login'>Login</Link></li>
+
+                            }
                         </ul>
                     </div>
                 </div>

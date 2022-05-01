@@ -51,6 +51,17 @@
     margin: 5px;
 }
 
+#logout {
+    padding: 10px;
+    background-color: #EE580F;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
 /* ==========Responsive code ============== */
 @media (max-width:768px) {
     .smail-nav {
