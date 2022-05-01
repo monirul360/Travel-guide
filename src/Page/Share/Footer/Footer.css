@@ -5,14 +5,33 @@
     color: white;
 }
 
+.footer-social {
+    padding: 15px 10px;
+}
+
+.footer-social ul {
+    list-style: none;
+}
+
+.footer-social ul li {
+    display: inline-block;
+    align-items: center;
+}
+
+.footer-social ul li a {
+    padding: 10px;
+}
+
 .footer-flex {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto auto 2fr;
+    grid-gap: 30px;
 }
 
 .footer-flex>div {
-    margin: 30px;
+    margin: 15px;
+    margin-bottom: 0px;
 }
 
 .footer-flex h2 {
@@ -40,17 +59,81 @@
 .footer-links ul li a {
     text-decoration: none;
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 1.6;
     color: #fff;
 }
 
+
+
 .footer-from input {
-    padding: 13px 10px;
-    width: calc(50%);
+    box-sizing: border-box;
+    padding: 13px 15px;
+    width: calc(50% - 25px);
+    margin-right: 25px;
     margin-bottom: 20px;
     outline: none;
 }
 
 .footer-from textarea {
-    width: 100%;
+    width: 95%;
+    padding: 20px 10px;
+    margin-bottom: 15px;
+}
+
+.footer-from input[type=submit] {
+    float: right;
+    width: 120px;
+    display: block;
+    background-color: #0e0c0c;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 15px;
+    border: none;
+    outline: none;
+}
+
+.footer-from input[type=submit]:hover {
+    background-color: brown;
+}
+
+.copy-right hr {
+    width: 80%;
+    display: block;
+    margin: auto;
+    border: 1px solid white;
+}
+
+.copy-right p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 17px;
+}
+
+/* ===========responsive code =========== */
+@media (max-width:900px) {
+    .footer-flex {
+        width: 95%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 0px;
+    }
+}
+
+@media (max-width:576px) {
+    .footer-flex {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 30px;
+    }
+
+    .copy-right hr {
+        width: 90%;
+        display: block;
+        margin: auto;
+        border: 1px solid white;
+    }
+
 }
