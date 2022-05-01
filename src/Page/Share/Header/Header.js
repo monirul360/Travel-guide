@@ -3,6 +3,14 @@ import { Link } from 'react-router-dom';
 import logo from '../../../Image/Logo/logo.png';
 import './Header.css';
 const Header = () => {
+    const myFunction = () => {
+        var x = document.getElementById("menu");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
     return (
         <div>
             <nav>
@@ -10,7 +18,12 @@ const Header = () => {
                     <div className="logo">
                         <img src={logo} height="60px" alt="" />
                     </div>
-                    <div className="menu">
+                    <div onClick={myFunction} className="smail-nav">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div id='menu' className="menu">
                         <ul>
                             <li><Link to='/home'>Home</Link></li>
                             <li><Link to='/blog'>Blog</Link></li>
