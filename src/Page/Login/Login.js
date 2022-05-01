@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useNavigate } from 'react-router-dom';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import auth from '../../firebase';
 import Social from '../Social/Social';
 import './Login.css';
@@ -30,10 +32,10 @@ const Login = () => {
     const resetPassword = () => {
         if (email) {
             sendPasswordResetEmail(email);
-            alert('Sent email');
+            toast('Sent email');
         } else {
             sendPasswordResetEmail(email);
-            alert('Place enter your email');
+            toast('Please enter your email address');
         }
     }
     const signiUser = e => {
@@ -63,6 +65,7 @@ const Login = () => {
                             <div></div>
                         </div>
                         <Social></Social>
+                        <ToastContainer />
                     </div>
                 </div>
             </section>
