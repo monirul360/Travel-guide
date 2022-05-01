@@ -34,9 +34,9 @@ const Signup = () => {
                     <div className="from">
                         <h2 id='from-title'>Please Register</h2>
                         <form onSubmit={createUser} >
-                            <input type="text" name="text" placeholder='Name' id="" />
-                            <input onBlur={emailBluer} type="email" name="text" placeholder='Enter your email' id="" />
-                            <input onBlur={passwordBluer} type="password" name="password" placeholder='Enter your password' id="" />
+                            <input type="text" name="text" placeholder='Name' id="" required />
+                            <input onBlur={emailBluer} type="email" name="text" placeholder='Enter your email' id="" required />
+                            <input onBlur={passwordBluer} type="password" name="password" placeholder='Enter your password' id="" required />
                             {loading && <p>loading ....</p>}
                             <p style={{ color: 'red' }}>{error?.message}</p>
                             <input type="submit" value="Register" />
