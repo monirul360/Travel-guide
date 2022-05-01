@@ -16,7 +16,7 @@ const Header = () => {
             <nav>
                 <div className="nav-section">
                     <div className="logo">
-                        <img src={logo} height="60px" alt="" />
+                        <Link to='/'><img src={logo} height="60px" alt="" /></Link>
                     </div>
                     <div onClick={myFunction} className="smail-nav">
                         <div></div>
