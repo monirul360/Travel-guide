@@ -12,7 +12,7 @@ const Service = ({ serviceShow }) => {
                         <h2>{name}</h2>
                         <h1><span> $ {price}</span></h1>
                         <p>{description}</p>
-                        <Link to="/blog">Book now</Link>
+                        <Link id='boox-now' to="/blog">Book now</Link>
                     </div>
                 </div>
             </section>

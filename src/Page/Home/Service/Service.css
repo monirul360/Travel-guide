@@ -4,3 +4,28 @@
     color: brown;
     font-size: 30px;
 }
+
+.service-show {
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 20px rgb(82, 79, 79);
+    text-align: center;
+    border-radius: 4px;
+}
+
+.service-text {
+    padding: 7px;
+}
+
+#boox-now {
+    display: block;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 10px;
+    background-color: brown;
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', ;
+    border-radius: 5px;
+}
