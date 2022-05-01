@@ -1,0 +1,56 @@
+.footer-container {
+    padding: 30px 10px;
+    margin-top: 50px;
+    background-color: #022739;
+    color: white;
+}
+
+.footer-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-flex>div {
+    margin: 30px;
+}
+
+.footer-flex h2 {
+    color: #fff;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-width: 1px;
+    display: inline-block;
+    padding-bottom: 2px;
+    padding-bottom: 27px;
+}
+
+.footer-flex p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.footer-from input {
+    padding: 13px 10px;
+    width: calc(50%);
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.footer-from textarea {
+    width: 100%;
+}

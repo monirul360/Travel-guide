@@ -8,6 +8,7 @@ import Login from './Page/Login/Login';
 import Checkout from './Page/Checkout/Checkout';
 import Error from './Page/Error/Error';
 import Signup from './Page/Signup/Signup';
+import Footer from './Page/Share/Footer/footer';
 function App() {
   return (
     <div>
@@ -22,6 +23,7 @@ function App() {
         <Route path='/signup' element={<Signup></Signup>}></Route>
         <Route path='*' element={<Error></Error>}></Route>
       </Routes>
+      <Footer></Footer>
     </div >
   );
 }
