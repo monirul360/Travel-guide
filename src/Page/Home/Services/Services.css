@@ -19,3 +19,22 @@
 .services-container img {
     width: 100%;
 }
+
+/* ===============Responsive code ================ */
+
+@media (max-width:900px) {
+    .services-container {
+        width: 95%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+}
+
+@media (max-width:576px) {
+    .services-container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}

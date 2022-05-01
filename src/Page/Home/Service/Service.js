@@ -9,10 +9,10 @@ const Service = ({ serviceShow }) => {
                 <div className="service-show">
                     <img src={img} alt="" />
                     <div className="service-text">
-                        <h2>{name}</h2>
+                        <h3>{name}</h3>
                         <h1><span> $ {price}</span></h1>
                         <p>{description}</p>
-                        <Link id='boox-now' to="/blog">Book now</Link>
+                        <Link id='Booking-now' to="/blog">Booking now</Link>
                     </div>
                 </div>
             </section>

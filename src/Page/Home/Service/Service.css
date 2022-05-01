@@ -15,9 +15,10 @@
 
 .service-text {
     padding: 7px;
+    padding-bottom: 0;
 }
 
-#boox-now {
+#Booking-now {
     display: block;
     text-decoration: none;
     padding: 10px 30px;
