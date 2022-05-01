@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Social from '../Social/Social';
 import './Login.css';
 const Login = () => {
     return (
@@ -20,6 +21,7 @@ const Login = () => {
                             <h4>OR</h4>
                             <div></div>
                         </div>
+                        <Social></Social>
                     </div>
                 </div>
             </section>
