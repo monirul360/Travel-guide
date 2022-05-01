@@ -1,0 +1,44 @@
+.bookin {
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.bookin h2 {
+    font-size: 24px;
+    color: blue;
+    margin-top: 15px;
+}
+
+.bookin-from {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.bookin-from input {
+    width: calc(50% - 30px);
+    padding: 13px;
+    margin: 10px 10px;
+    outline: none;
+    font-size: 17px;
+}
+
+.bookin-from input[type=submit] {
+    background-color: brown;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+/* ==========responsive code  */
+@media (max-width:576px) {
+    .bookin-from input {
+        width: 100%;
+        padding: 13px;
+        margin: 10px auto;
+        outline: none;
+        font-size: 17px;
+    }
+}
