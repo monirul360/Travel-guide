@@ -1,0 +1,21 @@
+.services-title {
+    text-align: center;
+    color: brown;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin: 30px auto;
+}
+
+
+.services-title h1 {
+    font-size: 40px;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.services-container img {
+    width: 100%;
+}
