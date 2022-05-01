@@ -9,6 +9,7 @@ import Checkout from './Page/Checkout/Checkout';
 import Error from './Page/Error/Error';
 import Signup from './Page/Signup/Signup';
 import Footer from './Page/Share/Footer/footer';
+import Private from './Page/Private/Private';
 function App() {
   return (
     <div>
@@ -19,7 +20,13 @@ function App() {
         <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
-        <Route path='/checkout' element={<Checkout></Checkout>}></Route>
+        <Route path='/checkout'
+          element={
+            <Private>
+              <Checkout></Checkout>
+            </Private>
+          }
+        ></Route>
         <Route path='/signup' element={<Signup></Signup>}></Route>
         <Route path='*' element={<Error></Error>}></Route>
       </Routes>

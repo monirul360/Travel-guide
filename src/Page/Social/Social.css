@@ -33,3 +33,13 @@
     font-size: 16px;
     font-weight: bold;
 }
+
+/* ============responsive code =========== */
+
+@media (max-width:576px) {
+    .social-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

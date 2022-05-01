@@ -1,15 +1,18 @@
 import React, { useState } from 'react';
 import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import auth from '../../firebase';
+import Loading from '../Loading/Loading';
 import Social from '../Social/Social';
 import './Login.css';
 const Login = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const navigate = useNavigate();
+    const location = useLocation();
+    const from = location.state?.from?.pathname || '/';
     const emailBluer = e => {
         setEmail(e.target.value);
     }
@@ -51,7 +54,7 @@ const Login = () => {
                         <form onSubmit={signiUser}>
                             <input onBlur={emailBluer} type="email" name="text" placeholder='Enter your email' id="" required />
                             <input onBlur={passwordBluer} type="password" name="password" placeholder='Enter your password' id="" required />
-                            {loading && <p>loading...</p>}
+                            {loading && <p>Loading... </p>}
                             <p style={{ color: 'red' }}>{error?.message}</p>
                             <input type="submit" value="Login" />
                         </form>
