@@ -15,7 +15,7 @@ const Guide = () => {
                 <div className="guide-container">
                     <div className="guide">
                         <img src={Mountains} alt="" />
-                        <h1>Mountains guide</h1>
+                        <h1>Mountains Guide</h1>
                         <p>If you want to travel in the mountains, take our offer
                         </p>
                         <button id='guide-button'>Read More</button>

@@ -10,7 +10,7 @@ const Service = ({ serviceShow }) => {
                 <div className="service-show">
                     <img src={img} alt="" />
                     <div className="service-text">
-                        <h3>{name}</h3>
+                        <h2>{name}</h2>
                         <h1><span> $ {price}</span></h1>
                         <p>{slice}</p>
                         <Link id='Booking-now' to="/checkout">Booking now</Link>
