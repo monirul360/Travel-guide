@@ -1,3 +1,19 @@
+# Travel guide
+# live site link: https://assginment-10.web.app/
+
+# features
+* Travel here Ideas related to web site can be found
+* Users can easily open an account with email
+* Users can also login with Google or GitHub
+* If you do not login, you will not be able to booking
+* The site will not reload when moving from one page to another
+
+## Technology use 
+- React js
+- Html , Css
+- react firebase hooks
+- react router
+- react toast
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
