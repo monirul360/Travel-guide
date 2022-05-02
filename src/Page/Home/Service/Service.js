@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './Service.css';
 const Service = ({ serviceShow }) => {
     const { name, img, price, description } = serviceShow;
+    const slice = description.slice(0, 110);
     return (
         <div>
             <section>
@@ -11,7 +12,7 @@ const Service = ({ serviceShow }) => {
                     <div className="service-text">
                         <h3>{name}</h3>
                         <h1><span> $ {price}</span></h1>
-                        <p>{description}</p>
+                        <p>{slice}</p>
                         <Link id='Booking-now' to="/checkout">Booking now</Link>
                     </div>
                 </div>

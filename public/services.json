@@ -1,44 +1,44 @@
 [
     {
         "id": 1,
-        "name": "ENGINE DIAGNOSTIC",
+        "name": "Tokyo Tower",
         "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "Standing 333 meters high in the center of Tokyo, Tokyo Tower  is the world's tallest, self-supported steel tower and 3 meters taller than its model",
         "img": "https://i.ibb.co/n0jyGxZ/5.webp"
     },
     {
         "id": 2,
-        "name": "WHEEL ALIGNMENT",
+        "name": "Empire State Building",
         "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "The Empire State Building is a 102-story Art Deco skyscraper in Midtown Manhattan, New York City. The building was designed by Shreve, Lamb & Harmon and built from 1930 to 1931",
         "img": "https://i.ibb.co/NsSy0kV/2.webp"
     },
     {
         "id": 3,
-        "name": "OIL CHANGING",
+        "name": "Statue of Liberty",
         "price": "150",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor in New York City, in the United States.",
         "img": "https://i.ibb.co/kxR6dD0/6.webp"
     },
     {
         "id": 4,
-        "name": "BRAKE REPARING",
+        "name": "Heidelberg Palace",
         "price": "180",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "Heidelberg Castle is a ruin in Germany and landmark of Heidelberg. The castle ruins are among the most important Renaissance structures north of the Alps.",
         "img": "https://i.ibb.co/7NwgTCD/8.webp"
     },
     {
         "id": 5,
-        "name": "WASH AND GLASSING",
+        "name": "Linderhof Palace",
         "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "Linderhof Palace is a Schloss in Germany, in southwest Bavaria near the village of Ettal. It is the smallest of the three palaces built by King Ludwig II of Bavaria and the only one which he lived to see completed.",
         "img": "https://i.ibb.co/ynSYWhH/10.webp"
     },
     {
         "id": 6,
-        "name": "COMPLETE ANALYSIS",
+        "name": "Tiananmen Square",
         "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "description": "Tiananmen Square or Tian'anmen Square is a city square in the city center of Beijing, China, named after the eponymous Tiananmen located to its north, which separates it from the Forbidden City",
         "img": "https://i.ibb.co/nmy9Kqg/1.webp"
     }
 ]
