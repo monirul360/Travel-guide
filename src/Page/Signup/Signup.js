@@ -19,7 +19,7 @@ const Signup = () => {
         user,
         loading,
         error,
-    ] = useCreateUserWithEmailAndPassword(auth);
+    ] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
     if (user) {
         navigate('/checkout');
     }

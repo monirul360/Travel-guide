@@ -1,0 +1,82 @@
+.guide-title {
+    width: 95%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.guide-title h1 {
+    font-size: 40px;
+    color: brown;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.guide-title p {
+    font-size: 20px;
+    line-height: 1.7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.guide-container {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.guide {
+    width: calc(33% - 20px);
+    margin: 10px;
+}
+
+.guide h1 {
+    color: #0f0909;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 13px auto;
+}
+
+.guide p {
+    font-size: 18px;
+    line-height: 1.8;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: rgb(15, 14, 14);
+}
+
+#guide-button {
+    padding: 13px 20px;
+    margin-top: 20px;
+    background-color: brown;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+/* ===========responsive code ========= */
+
+@media (max-width:768px) {
+    .guide-title h1 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width:900px) {
+    .guide {
+        width: calc(50% - 30px);
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:576px) {
+    .guide {
+        width: calc(100%);
+    }
+}
